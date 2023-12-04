@@ -1,5 +1,3 @@
-use regex::Regex;
-
 fn main() {
     let inputs: Vec<&str> = include_str!("../input").lines().collect();
     let mut number_of_cards = vec![1; inputs.len()];

@@ -1,5 +1,3 @@
-use regex::Regex;
-
 fn main() {
     let inputs = include_str!("../input").lines();
     let mut sum = 0;
